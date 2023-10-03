@@ -3,8 +3,13 @@
 
 int main() {
     int p, a, E;
+    std::cout << "Type p: " << std::endl;
     std::cin >> p;
+
+    std::cout << "Type a: " << std::endl;
     std::cin >> a;
+
+    std::cout << "Type E: " << std::endl;
     std::cin >> E; // Погрешность E = 10^-2, ..., 10^-6
 
     double xN1, xN, xX, Eps;
